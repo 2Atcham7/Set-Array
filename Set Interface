@@ -1,0 +1,19 @@
+/***
+
+My Set Interface
+
+**/
+public interface MySet{
+   //define the sentinanl methods
+   public boolean isEmpty();
+   public boolean isFull();
+   //define the utility methods
+   public boolean isItem(Object item);
+   public boolean addItem(Object item);
+   //allowable operations
+   public MySet union(MySet s);
+   public MySet intersect(MySet s);
+   public MySet subtract(MySet s);
+   public MySet crossProduct(MySet s);
+   
+}//end of interface
